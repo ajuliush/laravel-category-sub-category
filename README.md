@@ -6,15 +6,62 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+# Laravel Category Sub-Category Application
 
 ## Install Instructions
 
-https://github.com/ajuliush/laravel-category-sub-category.git
-cd laravel-category-sub-category/
-composer install
-cp .env.example .env
-Update .env and set your database credentials
-php artisan key:generate
-npm install
-npm run dev
-php artisan serve
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/ajuliush/laravel-category-sub-category.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd laravel-category-sub-category/
+    ```
+
+3. **Install PHP dependencies using Composer:**
+
+    ```bash
+    composer install
+    ```
+
+4. **Copy the `.env.example` file to create a new `.env` file:**
+
+    ```bash
+    cp .env.example .env
+    ```
+
+5. **Update the `.env` file with your database credentials.**
+
+6. **Generate an application key:**
+
+    ```bash
+    php artisan key:generate
+    ```
+
+7. **Install JavaScript dependencies using npm:**
+
+    ```bash
+    npm install
+    ```
+
+8. **Compile assets:**
+
+    ```bash
+    npm run dev
+    ```
+
+9. **Start the Laravel development server:**
+
+    ```bash
+    php artisan serve
+    ```
+
+Now, you should be able to access your Laravel application at [http://localhost:8000](http://localhost:8000) in your web browser.
+
+**Note:** Adjust the port number in the last step (`php artisan serve`) if needed. Ensure that your web server and database server are running as expected.
+
+
