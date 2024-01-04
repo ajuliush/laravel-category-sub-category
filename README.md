@@ -9,12 +9,12 @@
 
 ## Install Instructions
 
-https://github.com/ajuliush/laravel-category-sub-category.git
-cd laravel-category-sub-category/
-composer install
-cp .env.example .env
-Update .env and set your database credentials
-php artisan key:generate
-npm install
-npm run dev
-php artisan serve
+<p>git clone https://github.com/ajuliush/laravel-category-sub-category.git</p>
+<p>cd laravel-category-sub-category/</p>
+<p> composer install </p>
+<p> cp .env.example .env </p>
+<p> Update .env and set your database credentials </p>
+<p> php artisan key:generate </p>
+<p> npm install </p>
+<p> npm run dev </p>
+<p> php artisan serve </p>
